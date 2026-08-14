@@ -5,12 +5,12 @@
        LEDGER TRANSACTION SYSTEM SIMULATED REGISTRY
     ========================================================= */
     const TRANSACTION_REGISTRY = [
-        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0, time: "00:00:00", status: "Success" },
-        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0, time: "00:00:00", status: "Success" },
-        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Interbank ISO Gateway", direction: "inflow", amount: 0, time: "00:00:00", status: "Success" },
+        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Interbank ISO Gateway", direction: "inflow", amount: 0, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90217", party: "Acc...0029 (Leyu)", network: "National Clearing House", direction: "outflow", amount: 0, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0, time: "00:00:11", status: "Success" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0, time: "00:00:00", status: "Failed" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90220", party: "Acc...1182 (Raem)", network: "Retail Mobile Gateway", direction: "outflow", amount: 0, time: "00:00:00", status: "Pending" }
     ];
 
