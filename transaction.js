@@ -5,25 +5,26 @@
        LEDGER TRANSACTION SYSTEM SIMULATED REGISTRY
     ========================================================= */
     const TRANSACTION_REGISTRY = [
-        { id: "TXN-KN-90218", party: "Acc...9912 (SvayMetrey)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (ChornRothanak)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (LongLain)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },      
-        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90217", party: "Acc...0029 (Leyu)", network: "National Clearing House", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },   
-        { id: "TXN-KN-90243", party: "Acc...5541 (Sok Rachana)", network: "Interbank ISO Gateway", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90243", party: "Acc...5541 (Sok Khemera)", network: "Interbank ISO Gateway", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Men)", network: "Interbank ISO Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90220", party: "Acc...1182 (Raem)", network: "Retail Mobile Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" }
+        { id: "TXN-KN-90218", party: "Acc...9912 (SvayMetrey)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (ChornRothanak)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (LongLain)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
+        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90217", party: "Acc...0029 (Leyu)", network: "National Clearing House", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },   
+        { id: "TXN-KN-90243", party: "Acc...5541 (Sok Rachana)", network: "Interbank ISO Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90243", party: "Acc...5541 (Sok Khemera)", network: "Interbank ISO Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Men)", network: "Interbank ISO Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Loy Kimmuy)", network: "Bakong Transfer Sweep", direction: "outflow", amount: 10000000.00, time: "16:23:01", status: "Success" },
+        { id: "TXN-KN-90220", party: "Acc...1182 (Raem)", network: "Retail Mobile Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" }
     ];
 
     let currentFilter = "all";
@@ -68,7 +69,7 @@
 
         tbody.innerHTML = datasets.map(tx => {
             const displayAmt = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(tx.amount);
-            const classDirection = tx.direction === "inflow" ? "txt-inflow" : "txt-outflow";
+            const classDirection = tx.direction === "pending" ? "txt-pending" : "txt-pending";
             const badgeState = tx.status.toLowerCase();
 
             return `
@@ -77,7 +78,7 @@
                     <td>${tx.party}</td>
                     <td style="color:#94a3b8;">${tx.network}</td>
                     <td><span class="direction-badge">${tx.direction.toUpperCase()}</span></td>
-                    <td class="${classDirection}">${tx.direction === "inflow" ? "+" : "-"}${displayAmt}</td>
+                    <td class="${classDirection}">${tx.direction === "pending" ? "+" : "-"}${displayAmt}</td>
                     <td style="color:#64748b;">${tx.time}</td>
                     <td><span class="badge ${badgeState}">${tx.status}</span></td>
                 </tr>
