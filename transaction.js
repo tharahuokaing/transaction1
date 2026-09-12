@@ -21,7 +21,7 @@
         { id: "TXN-KN-90231", party: "Acc...90231 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90232", party: "Acc...90232 (Do)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90233", party: "Acc...90233 (Jav)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90234", party: "Acc...90234 (Kimmuy)", network: "Bakong Transfer Sweep", direction: "outflow", amount: 10,000,000.00, time: "12:00:00", status: "Success" },
+        { id: "TXN-KN-90234", party: "Acc...90234 (Loy Kimmuy)", network: "Bakong Transfer Sweep", direction: "pending", amount: 9,000,000.00, time: "01:01:01", status: "Success" },
         { id: "TXN-KN-90235", party: "Acc...90235 (Dom)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90237", party: "Acc...90327 (Chansamnang)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90238", party: "Acc...90238 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
@@ -34,7 +34,7 @@
         { id: "TXN-KN-90245", party: "Acc...90245 (Huokaing Tharoth)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90246", party: "Acc...90246 (Tek Hy)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90247", party: "Acc...90247 (Phann)", network: "Retail Mobile Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90248", party: "Acc...90247 (Vichaka)", network: "Retail Mobile Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Success" },
+        { id: "TXN-KN-90248", party: "Acc...90247 (Vichaka)", network: "Retail Mobile Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90249", party: "Acc...90246 (Nita)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90250", party: "Acc...90247 (Raem)", network: "Retail Mobile Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" }
     ];
